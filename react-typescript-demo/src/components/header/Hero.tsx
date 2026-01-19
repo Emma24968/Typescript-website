@@ -1,7 +1,8 @@
 export const Hero = () => {
   return (
-    <div className="div">
-      <div className="div"></div>
+    <div className="flex">
+      <div className="bg-[url(.../assets/)]
+"></div>
       <div className="div">
         <h3>De-Risking Human Progress</h3>
         <p>
