@@ -4,8 +4,10 @@ export const Navigation = () => {
   return (
     <div className="bg-[#202C2F] w-[87%] mt-[25px] container mx-auto flex  gap-15 p-[15px] rounded-[10px] h-[5.5rem] ">
       <Header />
-      <ul className="flex gap-6 ml-20 text-[#FAFAFA] text-[15px] font-normal leading-normal text-white font-[Times New Roman,sans-serif] items-center">
-        <li>Business Insurance</li>
+      <ul className="flex gap-6 ml-20 items-center">
+        <li className="text-[#FAFAFA] text-[15px] font-normal leading-normal text-white font-[Aeonik,sans-serif] ">
+          Business Insurance
+        </li>
         <li>Total Rewards</li>
         <li>Technology</li>
         <li>About</li>
