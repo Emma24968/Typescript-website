@@ -1,11 +1,14 @@
 import colleagueimg from "../../assets/colleague.webp";
 export const Hero = () => {
   return (
-    <div className="flex  ">
-      <section
-        className="h-screen bg-cover w-[500px] bg-center"
-        style={{ backgroundImage: `url(${colleagueimg})` }}
-      ></section>{" "}
+    <div className="flex mt-[20px] ">
+      <div className="w-[450px] h-[620px] ml-[5rem] overflow-hidden rounded-full">
+  <img
+    src={colleagueimg}
+    alt="colleagues"
+    className="w-full h-full object-cover"
+  />
+</div>
       <div className="w-[50%]">
         <h3 className="">De-Risking Human Progress</h3>
         <p>
