@@ -4,8 +4,8 @@ export const Navigation = () => {
   return (
     <div className="bg-[#202C2F] w-[87%] mt-[25px] container mx-auto flex  gap-15 p-[15px] rounded-[10px] h-[5.5rem] ">
       <Header />
-      <ul className="flex gap-6 ml-20 items-center">
-        <li className="text-[#FAFAFA] text-[15px] font-normal leading-normal text-white font-[Aeonik,sans-serif] ">
+      <ul className="flex gap-6 ml-20 items-center text-[#FAFAFA] text-[15px] font-normal leading-normal text-white font-[Aeonik,sans-serif] ">
+        <li className="">
           Business Insurance
         </li>
         <li>Total Rewards</li>
@@ -15,7 +15,7 @@ export const Navigation = () => {
       </ul>
       <div className="flex gap-8 items-center">
         <ul>Login</ul>
-        <button className="bg-white p-2 rounded-[4px]">
+        <button className="bg-white p-2 rounded-[4px] hover:bg-[#F028B8]">
           Talk to an Expert
         </button>
       </div>

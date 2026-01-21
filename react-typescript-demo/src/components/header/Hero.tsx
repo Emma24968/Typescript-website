@@ -15,6 +15,9 @@ export const Hero = () => {
           With elite insurance expertise empowered by breakthrough technology,
           Newfront is the modern insurance brokerage for the 21st century.
         </p>
+        <button className="bg-white mt-10 p-2 rounded-[4px] hover:bg-[#F028B8]">
+          Talk to an Expert
+        </button>
       </div>
     </div>
   );
