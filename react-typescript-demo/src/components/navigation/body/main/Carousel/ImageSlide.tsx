@@ -11,8 +11,10 @@ import Calm from '../../../../../assets/logo_home_calm.png'
 export const ImageSlide=()=>{
     const slides=[Calm,Ycombinator,Thistle,Lime,Partners,Astranis,Beone,Capital,Conversica]
     return(
-<div>
-    
+<div className='flex gap-4 mt-20'>
+    {slides.map((slide,index)=>(
+        <img className=' w-[15rem] h-[15rem] rounded-4xl shadow-md ' key={index} src={slide} alt="" />
+    ))}
 </div>
     )
 }
